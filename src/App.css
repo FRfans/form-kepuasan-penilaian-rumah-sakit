@@ -8,7 +8,7 @@
   min-height: 100vh;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   padding: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .form-container {
@@ -265,4 +265,71 @@
     justify-content: center;
     padding: 8px 10px;
   }
+}
+
+/* Preview Karyawan (FINAL) */
+.karyawan-option-preview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0a4e96;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-top: 10px;
+}
+
+.karyawan-option-preview .karyawan-name {
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.karyawan-option-preview .karyawan-sep {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.9);
+  margin: 8px 0 6px;
+}
+
+.karyawan-option-preview .karyawan-dept {
+  font-size: 0.95rem;
+  font-weight: 700;
+  opacity: 0.95;
+  letter-spacing: 0.3px;
+}
+
+.hospital-logo {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #fff;
+  padding: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
+.karyawan-text {
+  flex: 1;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.karyawan-photo-right {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  object-fit: cover;
+  background: #e6eef8;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.karyawan-photo-right.initials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #0a4e96;
+  background: #fff;
 }
